@@ -1,0 +1,158 @@
+/* --------------------------------------------------
+   css fix for foundation on IE6 / IE7 / IE8
+   -------------------------------------------------- */
+.row {
+    margin:0 auto;
+    width: 100%;
+    max-width: 70em;
+    overflow:hidden;
+
+    .row {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .large-1 {
+        _width: 6%;
+        width: 8.3333%\0;
+    }
+    .large-2 {
+        _width: 14%;
+        width: 16.6667%\0;
+    }
+    .large-3 {
+        _width: 22%;
+        width: 25%\0;
+    }
+    .large-4 {
+        _width: 30%;
+        width: 33.3333%\0;
+    }
+    .large-5 {
+        _width: 38%;
+        width: 41.6667%\0;
+    }
+    .large-6 {
+        _width: 46%;
+        width: 50%\0;
+    }
+    .large-7 {
+        _width: 54%;
+        width: 58.3333%\0;
+    }
+    .large-8 {
+        _width: 62%;
+        width: 66.6667%\0;
+    }
+    .large-9 {
+        _width: 70%;
+        width: 75%\0;
+    }
+    .large-10 {
+        _width: 78%;
+        width: 83.3333%\0;
+    }
+    .large-11 {
+        _width: 86%;
+        width: 91.6667%\0;
+    }
+    .large-12 {
+        _width: 94%;
+        width: 100%\0;
+    }
+}
+
+
+.column,
+.columns {
+    margin: 0 0 0 0px;
+    //margin-left: 10px;
+    //margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row legend {
+    margin-bottom: 10px;
+    _padding-top: 0.5em;
+}
+
+span.postfix,
+span.prefix {
+    _margin-top: 1px;
+    _height: 2.15em;
+    _line-height: 2.15em;
+}
+
+input,
+textarea {
+  border: 1px solid #cccccc;
+  margin: 0 0 1em 0;
+  padding: 0.5em;
+}
+
+input:focus,
+textarea:focus {
+  background: #fafafa;
+  border-color: #999999;
+  outline: none; 
+}
+
+input.button {
+    width: auto;
+    _padding: 0 1em;
+}
+input.small {
+    _font-size: 1em;
+}
+a.button {
+    _padding: 0 1em;
+}
+
+.right {
+    _padding-right: 0;
+    _margin-right: 10px;
+}
+
+.breadcrumbs {
+    _height: 1.5em;
+
+    li {
+        _margin: 0 1em 0 0;
+        _float: left;
+    }
+}
+
+ul.inline-list {
+    _margin: 0;
+    _padding: 1em 0;
+
+    li {
+        float: left;
+        margin-right: 1em;
+    }
+}
+
+dl.sub-nav {
+    _clear: left;
+}
+
+.sub-nav dd.active {
+    a {
+        _padding-top: 0.5em !important;
+        _padding-left: 1em !important;
+    }
+}
+
+.side-nav {
+    li {
+        _line-height: 1em;
+    }
+}
+
+.collapse {
+    .columns {
+        _padding-left: 0px !important;
+        _padding-right: 0px !important;
+        _float: left !important;
+    }
+}
